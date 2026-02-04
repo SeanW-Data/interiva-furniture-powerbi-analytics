@@ -2,7 +2,7 @@
 
 <h3>Power BI | Data Analytics Portfolio Project</h3>
 
-<img src="dashboard/Overview.png" width="800">
+<img src="dashboard/Interiva_Overview.png" width="800">
 
 <h3>📌 Project Overview</h3>
 
@@ -66,7 +66,7 @@ Provide an executive snapshot of revenue, profit, orders, growth context, and wh
   <li>City-level performance map with drillable filters</li>
   <li>Customer segment contribution summary</li>
 </ul>
-<img src="dashboard/Overview.png" width="800">
+<img src="dashboard/Interiva_Overview.png" width="800">
 
 ---
 
@@ -79,7 +79,7 @@ Understand customer value across generations, segments, and genders to inform ta
   <li>Customer value by segment (avg revenue per customer)</li>
   <li>Unique customers KPI and segmentation insight callouts</li>
 </ul>
-<img src="dashboard/Customers.png" width="800">
+<img src="dashboard/Interiva_Customers.png" width="800">
 
 ---
 
@@ -92,7 +92,7 @@ Identify which categories/products drive performance and assess whether customer
   <li>Product rating vs revenue performance scatter</li>
   <li>Insight panel translating patterns into business meaning</li>
 </ul>
-<img src="dashboard/Products.png" width="800">
+<img src="dashboard/Interiva_Products.png" width="800">
 
 ---
 
@@ -105,7 +105,7 @@ Compare marketing and sales sources by <strong>volume vs value</strong> to highl
   <li>Orders by payment method and device</li>
   <li>Optional drill-down by Online vs Store to separate channel dynamics</li>
 </ul>
-<img src="dashboard/Channels.png" width="800">
+<img src="dashboard/Interiva_Channels.png" width="800">
 
 ---
 
@@ -118,7 +118,7 @@ Surface operational risk and reliability issues by courier and fulfilment centre
   <li>Late deliveries trend over time</li>
   <li>Filters to isolate courier/warehouse combinations for investigation</li>
 </ul>
-<img src="dashboard/Delivery.png" width="800">
+<img src="dashboard/Interiva_Delivery.png" width="800">
 
 ---
 
@@ -130,7 +130,7 @@ Confirm repeatable demand peaks across months/quarters to support planning (inve
   <li>Monthly trend comparison across years</li>
   <li>Context note for partial edge-of-period data</li>
 </ul>
-<img src="dashboard/Seasonality.png" width="800">
+<img src="dashboard/Interiva_Seasonality.png" width="800">
 
 ---
 
@@ -142,7 +142,7 @@ Bring together the executive narrative: performance summary, value drivers, risk
   <li>Actionable recommendations linked directly to the findings</li>
   <li>Clear limitations section to demonstrate analytical rigour</li>
 </ul>
-<img src="dashboard/Insights.png" width="800">
+<img src="dashboard/Interiva_Insights.png" width="800">
 
 ---
 
