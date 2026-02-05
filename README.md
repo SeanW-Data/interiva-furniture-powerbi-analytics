@@ -28,7 +28,7 @@ The report is designed to help stakeholders quickly understand what is driving g
 ---
 
 📘 **Supporting Documentation**
-- [Data Dictionary](docs/data_dictionary.md)
+- [Data Dictionary](data/data_dictionary.md)
 - [Power Query Cleaning Steps](powerquery/README.md)
 - [DAX Measures](dax/README.md)
 
