@@ -27,6 +27,13 @@ The report is designed to help stakeholders quickly understand what is driving g
 
 ---
 
+📘 **Supporting Documentation**
+- [Data Dictionary](docs/data_dictionary.md)
+- [Power Query Cleaning Steps](powerquery/README.md)
+- [DAX Measures](dax/README.md)
+
+---
+
 <h3>❓ Business Questions Answered</h3>
 
 <ul>
@@ -36,7 +43,7 @@ The report is designed to help stakeholders quickly understand what is driving g
 </ul>
 
 <p>
-These questions structure the report narrative from executive overview → value drivers → optimisation opportunities. :contentReference[oaicite:1]{index=1}
+These questions structure the report narrative from executive overview → value drivers → optimisation opportunities.
 </p>
 
 ---
@@ -47,7 +54,7 @@ These questions structure the report narrative from executive overview → value
 
 <p>
 The model uses a clean star-style layout anchored on <strong>fact_sales</strong>, supported by a dedicated <strong>dim_date</strong> table for time intelligence and <strong>dim_delivery</strong> for operational delivery analysis.
-This structure enables consistent filtering, accurate aggregations, and scalable DAX measures across the report. :contentReference[oaicite:2]{index=2}
+This structure enables consistent filtering, accurate aggregations, and scalable DAX measures across the report.
 </p>
 
 <h3>🧹 Data Preparation & Power Query Cleaning</h3> <p> All data used in this project was cleaned and prepared in <strong>Power Query</strong> to ensure consistency, reliability, and suitability for analysis before modelling and DAX development. </p> <p> The cleaning process focused on standardising fields, resolving data quality issues, and shaping the dataset to support accurate aggregation and filtering across the report. </p> <p><strong>Key steps included:</strong></p> <ul> <li>Removal of duplicate records and redundant columns</li> <li>Standardisation of text fields (capitalisation, trimming whitespace, consistent category naming)</li> <li>Data type enforcement across numeric, date, and categorical fields</li> <li>Creation of derived columns (e.g. customer name consolidation, profit calculation)</li> <li>Handling missing values, including replacing null ages with the dataset average where appropriate</li> <li>Separation of delivery-related attributes into a dedicated dimension table</li> </ul> <p> These steps ensured the final dataset was <strong>analysis-ready</strong>, reduced ambiguity in the data model, and enabled reliable KPI, trend, and segmentation analysis within Power BI. </p> <img src="powerquery/fact_sales_powerquery_steps.png" width="800"> <p><em>Power Query transformation steps used to clean and prepare the dataset</em></p>
@@ -150,22 +157,22 @@ Bring together the executive narrative: performance summary, value drivers, risk
 
 <p><strong>Growth & concentration:</strong></p>
 <ul>
-  <li>Revenue, profit, and orders grew by roughly <strong>~180% YoY</strong> across the period. :contentReference[oaicite:3]{index=3}</li>
-  <li>Growth is driven primarily by <strong>online sales</strong> (around two-thirds of revenue). :contentReference[oaicite:4]{index=4}</li>
-  <li>Performance is geographically concentrated in a small number of high-performing cities (notably <strong>Liverpool</strong> and <strong>Newcastle</strong>). :contentReference[oaicite:5]{index=5}</li>
+  <li>Revenue, profit, and orders grew by roughly <strong>~180% YoY</strong> across the period.</li>
+  <li>Growth is driven primarily by <strong>online sales</strong> (around two-thirds of revenue).</li>
+  <li>Performance is geographically concentrated in a small number of high-performing cities (notably <strong>Liverpool</strong> and <strong>Newcastle</strong>).</li>
 </ul>
 
 <p><strong>Customer and product value:</strong></p>
 <ul>
-  <li><strong>Millennials</strong> and <strong>Generation X</strong> generate the highest total revenue/profit overall. :contentReference[oaicite:6]{index=6}</li>
-  <li><strong>Families</strong> and <strong>Retirees</strong> show the highest average spend per customer, useful for pricing and loyalty strategies. :contentReference[oaicite:7]{index=7}</li>
-  <li>The <strong>Bedroom</strong> category dominates revenue and profit, with a small set of products contributing disproportionately to both. :contentReference[oaicite:8]{index=8}</li>
+  <li><strong>Millennials</strong> and <strong>Generation X</strong> generate the highest total revenue/profit overall.</li>
+  <li><strong>Families</strong> and <strong>Retirees</strong> show the highest average spend per customer, useful for pricing and loyalty strategies.</li>
+  <li>The <strong>Bedroom</strong> category dominates revenue and profit, with a small set of products contributing disproportionately to both.</li>
 </ul>
 
 <p><strong>Efficiency & operational risk:</strong></p>
 <ul>
-  <li><strong>Paid Ads</strong> drive the highest order volume but lower average revenue per order; <strong>Direct</strong> and <strong>Organic Search</strong> bring fewer but higher-value orders. :contentReference[oaicite:9]{index=9}</li>
-  <li>Late deliveries are concentrated across specific couriers and fulfilment centres; <strong>Royal Mail</strong> and the <strong>London/Leeds</strong> centres contribute the most delays, while <strong>Evri</strong> shows a reliability risk despite lower volume. :contentReference[oaicite:10]{index=10}</li>
+  <li><strong>Paid Ads</strong> drive the highest order volume but lower average revenue per order; <strong>Direct</strong> and <strong>Organic Search</strong> bring fewer but higher-value orders.</li>
+  <li>Late deliveries are concentrated across specific couriers and fulfilment centres; <strong>Royal Mail</strong> and the <strong>London/Leeds</strong> centres contribute the most delays, while <strong>Evri</strong> shows a reliability risk despite lower volume.</li>
 </ul>
 
 ---
@@ -176,7 +183,7 @@ Bring together the executive narrative: performance summary, value drivers, risk
   <li><strong>Rebalance channel investment</strong> toward higher-value Direct and Organic traffic; optimise Paid Ads for quality, not just volume.</li>
   <li><strong>Protect and scale top-performing Bedroom products</strong> (availability, merchandising, cross-sell bundles), since category performance is highly concentrated.</li>
   <li><strong>Improve delivery reliability</strong> by reviewing Royal Mail and Evri performance and investigating London/Leeds distribution bottlenecks.</li>
-  <li><strong>Plan for seasonal peaks</strong> (early Q1 and mid-year) through inventory planning, staffing, and timed promotions. :contentReference[oaicite:11]{index=11}</li>
+  <li><strong>Plan for seasonal peaks</strong> (early Q1 and mid-year) through inventory planning, staffing, and timed promotions.</li>
 </ul>
 
 ---
@@ -184,10 +191,10 @@ Bring together the executive narrative: performance summary, value drivers, risk
 <h3>⚠️ Limitations</h3>
 
 <ul>
-  <li><strong>Partial time-period coverage:</strong> early 2024 and late 2025 include incomplete data, which may affect edge-of-period comparisons. :contentReference[oaicite:12]{index=12}</li>
-  <li><strong>Returns data unavailable:</strong> limits insight into product quality issues, true net revenue, and post-purchase satisfaction. :contentReference[oaicite:13]{index=13}</li>
-  <li><strong>No unique customer ID:</strong> restricts deeper customer behaviour analysis (repeat purchasing, retention, lifetime value). :contentReference[oaicite:14]{index=14}</li>
-  <li><strong>Ratings-only sentiment:</strong> review data is limited to star ratings, so drivers of satisfaction/dissatisfaction can’t be fully explained. :contentReference[oaicite:15]{index=15}</li>
+  <li><strong>Partial time-period coverage:</strong> early 2024 and late 2025 include incomplete data, which may affect edge-of-period comparisons.</li>
+  <li><strong>Returns data unavailable:</strong> limits insight into product quality issues, true net revenue, and post-purchase satisfaction.</li>
+  <li><strong>No unique customer ID:</strong> restricts deeper customer behaviour analysis (repeat purchasing, retention, lifetime value).</li>
+  <li><strong>Ratings-only sentiment:</strong> review data is limited to star ratings, so drivers of satisfaction/dissatisfaction can’t be fully explained.</li>
 </ul>
 
 ---
