@@ -43,14 +43,14 @@ These questions structure the report narrative from executive overview → value
 
 <h3>🗂️ Data Model</h3>
 
-<img src="data/Interiva_Data_Model" width="520">
+<img src="data/Interiva_Data_Model.png" width="520">
 
 <p>
 The model uses a clean star-style layout anchored on <strong>fact_sales</strong>, supported by a dedicated <strong>dim_date</strong> table for time intelligence and <strong>dim_delivery</strong> for operational delivery analysis.
 This structure enables consistent filtering, accurate aggregations, and scalable DAX measures across the report. :contentReference[oaicite:2]{index=2}
 </p>
 
-<h3>🧹 Data Preparation & Power Query Cleaning</h3> <p> All data used in this project was cleaned and prepared in <strong>Power Query</strong> to ensure consistency, reliability, and suitability for analysis before modelling and DAX development. </p> <p> The cleaning process focused on standardising fields, resolving data quality issues, and shaping the dataset to support accurate aggregation and filtering across the report. </p> <p><strong>Key steps included:</strong></p> <ul> <li>Removal of duplicate records and redundant columns</li> <li>Standardisation of text fields (capitalisation, trimming whitespace, consistent category naming)</li> <li>Data type enforcement across numeric, date, and categorical fields</li> <li>Creation of derived columns (e.g. customer name consolidation, profit calculation)</li> <li>Handling missing values, including replacing null ages with the dataset average where appropriate</li> <li>Separation of delivery-related attributes into a dedicated dimension table</li> </ul> <p> These steps ensured the final dataset was <strong>analysis-ready</strong>, reduced ambiguity in the data model, and enabled reliable KPI, trend, and segmentation analysis within Power BI. </p> <img src="powerquery/fact_sale_powerquery_steps.png" width="800"> <p><em>Power Query transformation steps used to clean and prepare the dataset</em></p>
+<h3>🧹 Data Preparation & Power Query Cleaning</h3> <p> All data used in this project was cleaned and prepared in <strong>Power Query</strong> to ensure consistency, reliability, and suitability for analysis before modelling and DAX development. </p> <p> The cleaning process focused on standardising fields, resolving data quality issues, and shaping the dataset to support accurate aggregation and filtering across the report. </p> <p><strong>Key steps included:</strong></p> <ul> <li>Removal of duplicate records and redundant columns</li> <li>Standardisation of text fields (capitalisation, trimming whitespace, consistent category naming)</li> <li>Data type enforcement across numeric, date, and categorical fields</li> <li>Creation of derived columns (e.g. customer name consolidation, profit calculation)</li> <li>Handling missing values, including replacing null ages with the dataset average where appropriate</li> <li>Separation of delivery-related attributes into a dedicated dimension table</li> </ul> <p> These steps ensured the final dataset was <strong>analysis-ready</strong>, reduced ambiguity in the data model, and enabled reliable KPI, trend, and segmentation analysis within Power BI. </p> <img src="powerquery/fact_sales_powerquery_steps.png" width="800"> <p><em>Power Query transformation steps used to clean and prepare the dataset</em></p>
 
 ---
 
