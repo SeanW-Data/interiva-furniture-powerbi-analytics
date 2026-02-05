@@ -9,7 +9,7 @@
 <p>
 This project presents an end-to-end analytics and Power BI reporting solution for a fictional UK furniture retailer, <strong>Interiva Furniture</strong>.
 Over a two-year period (2024–2025), the business achieved ~<strong>180% year-on-year growth</strong>, but performance is uneven across customers, products, channels, and operations. 
-The report is designed to help stakeholders quickly understand what is driving growth, where value is concentrated, and where operational risks may be limiting performance. :contentReference[oaicite:0]{index=0}
+The report is designed to help stakeholders quickly understand what is driving growth, where value is concentrated, and where operational risks may be limiting performance.
 </p>
 
 ---
