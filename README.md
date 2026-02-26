@@ -2,7 +2,10 @@
 
 <h3>Power BI | Data Analytics Portfolio Project</h3>
 
-<img src="dashboard/Interiva_Overview.png" width="800">
+🎥 **[Watch the full dashboard walkthrough on Loom](https://www.loom.com/share/0ef0f830fee54a52bf3db5c381de12bd)**
+
+[![Dashboard Walkthrough](https://cdn.loom.com/sessions/thumbnails/0ef0f830fee54a52bf3db5c381de12bd-with-play.gif)](https://www.loom.com/share/0ef0f830fee54a52bf3db5c381de12bd)
+
 
 <h3>📌 Project Overview</h3>
 
