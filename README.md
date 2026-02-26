@@ -4,7 +4,7 @@
 
 🎥 **[Watch the full dashboard walkthrough on Loom](https://www.loom.com/share/0ef0f830fee54a52bf3db5c381de12bd)**
 
-[![Dashboard Walkthrough](https://cdn.loom.com/sessions/thumbnails/0ef0f830fee54a52bf3db5c381de12bd-00001.gif)](https://www.loom.com/share/0ef0f830fee54a52bf3db5c381de12bd)
+[![Dashboard Walkthrough](dashboard/Interiva_Overview.png)](https://www.loom.com/share/0ef0f830fee54a52bf3db5c381de12bd)
 
 
 <h3>📌 Project Overview</h3>
