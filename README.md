@@ -2,7 +2,7 @@
 
 <h3>Power BI | Data Analytics Portfolio Project</h3>
 
-[![Dashboard Walkthrough](dashboard/Interiva_Overview.png)].
+[Dashboard Walkthrough](dashboard/Interiva_Overview.png)
 
 
 <h3>📌 Project Overview</h3>
